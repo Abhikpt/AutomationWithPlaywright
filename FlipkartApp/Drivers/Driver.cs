@@ -19,7 +19,7 @@ namespace FlipkartApp.Drivers
                 _playwright = await Playwright.CreateAsync();
                 _browser = await _playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions 
                 {  
-                    ExecutablePath = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+                  //  ExecutablePath = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
                     Headless = false 
                 
                 });

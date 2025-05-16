@@ -15,7 +15,7 @@ public class BaseClass
         _browser = await _playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
         {
             Headless = headless,
-            Channel = "msedge" // 🔁 Launches Microsoft Edge
+         //   Channel = "msedge" // 🔁 Launches Microsoft Edge
         });
 
         _context = await _browser.NewContextAsync();

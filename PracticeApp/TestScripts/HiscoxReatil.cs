@@ -6,7 +6,7 @@ public class HiscoxReatil : BaseClass
     [SetUp]
     public async Task setup()
     {
-        await StartAsync(false);
+         await StartAsync(headless: false);
         await _page.GotoAsync("https://www.hiscox.com/small-business-insurance/professional-business-insurance/retail-insurance");
     }
 
