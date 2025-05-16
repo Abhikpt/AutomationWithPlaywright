@@ -33,7 +33,7 @@ jobs:
 
       # adding this steps to debug the correct path
       - name: List Playwright script path
-        run: ls -R bin/
+        run: ls -a
 
       - name: Install Playwright Browsers
         run: pwsh PracticeApp/bin/Release/net9.0/playwright.ps1 install  # adjust net version
