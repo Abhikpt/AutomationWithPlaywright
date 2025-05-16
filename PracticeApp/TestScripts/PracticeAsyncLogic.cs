@@ -1,7 +1,7 @@
 
 using System.Threading.Tasks;
 
-namespace PlaywrightPractice.TestScripts;
+namespace PracticeApp.TestScripts;
 
 public class PracticeAsyncLogic
 {

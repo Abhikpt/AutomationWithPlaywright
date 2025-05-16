@@ -1,8 +1,8 @@
 using System.Text.Json;
 using Microsoft.Playwright;
-using PlaywrightPractice.Utilities;
+using PracticeApp.Utilities;
 
-namespace PlaywrightPractice.TestScripts;
+namespace PracticeApp.TestScripts;
 
 public class EspnCrickinfo
 {

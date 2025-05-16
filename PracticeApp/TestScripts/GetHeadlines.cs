@@ -1,6 +1,6 @@
-using PlaywrightPractice;
+using PracticeApp;
 
-namespace PlaywrightPractice.TestScript;
+namespace PracticeApp.TestScripts;
 
 [TestFixture]
 public class GetHeadlines : BaseClass

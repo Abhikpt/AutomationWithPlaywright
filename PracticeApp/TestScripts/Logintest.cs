@@ -2,7 +2,7 @@
 
 using Microsoft.Playwright;
 
-namespace PlaywrightPractice.TestScripts;
+namespace PracticeApp.TestScripts;
 
 public class Logintest
 {

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oIOzrnrz1U8=",
+  "dgSpecHash": "nNpZUgjmoHY=",
   "success": true,
   "projectFilePath": "C:\\ProjectWorkspace\\Automation Project\\AutomationWithPlaywright\\FlipkartApp\\FlipkartApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASing\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\ASing\\.nuget\\packages\\epplus\\4.0.1.1\\epplus.4.0.1.1.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\extentreports\\5.0.3\\extentreports.5.0.3.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
@@ -134,6 +135,16 @@
     "C:\\Users\\ASing\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EPPlus 4.0.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EPPlus",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

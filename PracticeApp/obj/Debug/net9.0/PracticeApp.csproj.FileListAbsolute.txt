@@ -442,3 +442,4 @@ C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\PracticeApp\obj\
 C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\PracticeApp\obj\Debug\net9.0\PracticeApp.pdb
 C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\PracticeApp\obj\Debug\net9.0\PracticeApp.genruntimeconfig.cache
 C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\PracticeApp\obj\Debug\net9.0\ref\PracticeApp.dll
+C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\PracticeApp\obj\Debug\net9.0\PracticeApp.sourcelink.json

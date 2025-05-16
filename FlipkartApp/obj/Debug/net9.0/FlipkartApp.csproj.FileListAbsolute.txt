@@ -514,3 +514,5 @@ C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\FlipkartApp\bin\
 C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\FlipkartApp\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\FlipkartApp\bin\Debug\net9.0\FrameWorkDesign.dll
 C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\FlipkartApp\bin\Debug\net9.0\FrameWorkDesign.pdb
+C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\FlipkartApp\obj\Debug\net9.0\FlipkartApp.sourcelink.json
+C:\ProjectWorkspace\Automation Project\AutomationWithPlaywright\FlipkartApp\bin\Debug\net9.0\EPPlus.dll

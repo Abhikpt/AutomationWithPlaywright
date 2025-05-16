@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3n/OOGYVXXM=",
+  "dgSpecHash": "DZLsOSmdC6M=",
   "success": true,
   "projectFilePath": "C:\\ProjectWorkspace\\Automation Project\\AutomationWithPlaywright\\FrameWorkDesign\\FrameWorkDesign.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASing\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\ASing\\.nuget\\packages\\epplus\\4.0.1.1\\epplus.4.0.1.1.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\extentreports\\5.0.3\\extentreports.5.0.3.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -39,11 +40,21 @@
     "C:\\Users\\ASing\\.nuget\\packages\\system.text.json\\6.0.10\\system.text.json.6.0.10.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
-    "C:\\Users\\ASing\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
-    "C:\\Users\\ASing\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
-    "C:\\Users\\ASing\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"
+    "C:\\Users\\ASing\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.16\\microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\ASing\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.16\\microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\ASing\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.16\\microsoft.windowsdesktop.app.ref.8.0.16.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EPPlus 4.0.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EPPlus",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

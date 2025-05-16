@@ -1,8 +1,8 @@
 
 using System.Text.Json;
-using PlaywrightPractice.TestScripts;
+using PracticeApp.TestScripts;
 
-namespace PlaywrightPractice.Utilities;
+namespace PracticeApp.Utilities;
 
 public class TestUtil
 {
