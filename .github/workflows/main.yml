@@ -32,11 +32,11 @@ jobs:
         run: dotnet build --configuration Release --no-restore
 
       # adding this steps to debug the correct path
- #     - name: List Playwright script path
-  #      run: ls -R bin/
+      - name: List Playwright script path
+        run: ls -R bin/
 
       - name: Install Playwright Browsers
-        run: pwsh bin/Release/net9.0/playwright.ps1 install  # adjust net version
+        run: pwsh PracticeApp/bin/Release/net9.0/playwright.ps1 install  # adjust net version
         
        # 👉 Add this step to run tests with xvfb (for headed mode)
       - name: Run Playwright Tests
