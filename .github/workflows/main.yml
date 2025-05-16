@@ -6,9 +6,13 @@ on:
 jobs:
   Playwright-test:             #you can give any name
     runs-on: ubuntu-latest    
+    strategy:    # optional if you want to use for multiple versions
+      matrix:
+        dotnet-version: ['7.0.x', '8.0.x', '9.0.x']
 #    env:
 #      USERNAME: ${{ secrets.USERNAME }}  # Securely fetch username from GitHub Secrets
 #      PASSWORD: ${{ secrets.PASSWORD }}  # Securely fetch password from GitHub Secrets
+
 
     steps:
       # Pulls/checkout the code from your GitHub repository into the runner machine.
@@ -19,7 +23,7 @@ jobs:
       - name: Set up .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0'   #check the version used by you
+          dotnet-version: ${{ matrix.dotnet-version }}   #check the version used by you
 
       # Restores all dependencies defined in your .csproj files using NuGet.
       - name: Restore dependencies
